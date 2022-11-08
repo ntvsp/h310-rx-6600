@@ -14,6 +14,30 @@
 				<key>Path</key>
 				<string>SSDT-VNOH-600.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-AWAC-DISABLE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-PLUG-ALT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -480,7 +504,7 @@
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
